@@ -12,6 +12,7 @@
   "dependencies": {
     "ajv": "^6.5.1",
     "ajv-keywords": "^3.2.0",
+    "hoek": "^5.0.3",
     "vue": "^2.5.2",
     "vue-router": "^3.0.1"
   },
