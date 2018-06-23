@@ -16,7 +16,8 @@ export default {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   
-  margin-top: 60px;
+  width:960px;
+  margin:0 auto;
   @include grid(true); 
   color:$lightGreen;
 }

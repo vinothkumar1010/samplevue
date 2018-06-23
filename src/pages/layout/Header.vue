@@ -1,6 +1,6 @@
 <template>
-	<div id="sample">
-		sample header will come here
+	<div id="logoHolder">
+            <img :src="require('../../assets/mylogo_small.png')">
 	</div>
 </template>
 
