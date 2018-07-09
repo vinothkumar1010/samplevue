@@ -2,7 +2,7 @@
  <nav>
         <ul>
             <li><a href="home">Home</a></li>
-            <li><a href="addNewUser">Add New User</a></li>
+            <li><a href="signup">Sign Up</a></li>
             <li><a href="listUsers">List All Users</a></li>
         </ul>
     </nav>

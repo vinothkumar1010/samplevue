@@ -16,7 +16,14 @@ export default new Router({
         {
           path: 'home',
           name: 'home',
+          alias: '/', 
           component: Vue.component( 'Home', require( '@/pages/Home.vue' ).default )
+        },
+        {
+          path: 'signup',
+          name: 'signup',
+          alias: '/', 
+          component: Vue.component( 'Signup', require( '@/pages/Signup.vue' ).default )
         },
         {
           path:'*',
