@@ -16,7 +16,6 @@
                 <label for="dateofbirth">Date of Birth</label>
                 <input type="text" name="dateofbirth" id="dateofbirth" v-model="User.dateofbirth"/>
             </div>
-
             <div>
                     <input type="button" value="button" v-on:click="submitSignUp"/>
             </div>
