@@ -26,6 +26,18 @@ export default new Router({
           component: Vue.component( 'Signup', require( '@/pages/Signup.vue' ).default )
         },
         {
+          path: 'login',
+          name: 'login',
+          alias: '/', 
+          component: Vue.component( 'Signup', require( '@/pages/Login.vue' ).default )
+        },
+        {
+          path: 'resources',
+          name: 'resources',
+          alias: '/', 
+          component: Vue.component( 'Signup', require( '@/pages/LearningResource.vue' ).default )
+        },
+        {
           path:'*',
           component:NotFound
         }

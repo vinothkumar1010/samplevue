@@ -17,7 +17,7 @@
                 <input type="text" name="dateofbirth" id="dateofbirth" v-model="User.dateofbirth"/>
             </div>
             <div>
-                    <input type="button" value="button" v-on:click="submitSignUp"/>
+                    <input type="button" value="Submit" v-on:click="submitSignUp"/>
             </div>
     </div>
 </template>
@@ -39,7 +39,6 @@ const sampleVueService = `http://${window.location.hostname}:3001`
         },
         methods:{
             submitSignUp () { 
-                alert("user");
                 axios.post(`${sampleVueService}/api/v1/signup`, this.User)
                     .then(response => {
                         console.log(response);

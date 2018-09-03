@@ -3,6 +3,7 @@
         <ul>
             <li><a href="home">Home</a></li>
             <li><a href="signup">Sign Up</a></li>
+            <li><a href="login">Login</a></li>
             <li><a href="listUsers">List All Users</a></li>
         </ul>
     </nav>
