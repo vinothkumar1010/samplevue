@@ -27,7 +27,6 @@ const sampleVueService = `http://${window.location.hostname}:3001`
         },
         methods:{
             Login(){
-                alert("login called");
                 axios.post(`${sampleVueService}/api/v1/auth`,this.user).
                 then(response=>{
                     console.log(response)
